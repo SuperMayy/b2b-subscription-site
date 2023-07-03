@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "export NODE_OPTIONS=--openssl-legacy-provider; next dev",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; next build",
+    "dev": "next dev",
+    "build": "next build",
     "serve": "next start",
     "export": "next export",
     "lint": "next lint",
