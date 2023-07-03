@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Container, Flex } from 'theme-ui';
+import { Container, Flex } from 'theme-ui';
 import { Link } from 'components/link';
 import Logo from 'components/logo';
 import { DrawerProvider } from 'contexts/drawer/drawer.provider';
