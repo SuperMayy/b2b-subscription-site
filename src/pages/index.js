@@ -20,7 +20,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 014" />
+          <SEO title="QuickDial" />
           <Banner />
           <Services />
           <Jackpot />

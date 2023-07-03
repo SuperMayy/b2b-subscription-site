@@ -102,7 +102,7 @@ const SignUp = () => {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 014" />
+          <SEO title="QuickDial" />
           <Box as="section" sx={styles.signup}>
           <BlockTitle
             title="Sign Up"

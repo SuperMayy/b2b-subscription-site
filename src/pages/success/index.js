@@ -13,7 +13,7 @@ const Success = () => {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 014" />
+          <SEO title="QuickDial" />
           <Box as="section" sx={styles.signup}>
           <BlockTitle
             title="Your account has been successfully created"

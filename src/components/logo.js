@@ -14,7 +14,7 @@ export default function Logo({ image }) {
         cursor: 'pointer'
       }}
     >
-      <Image src={image} alt="startup landing logo" />
+      <Image src={image} alt="quickdial logo" />
     </Link>
   );
 }
