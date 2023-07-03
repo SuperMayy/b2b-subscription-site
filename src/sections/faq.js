@@ -93,9 +93,9 @@ const FAQ = () => {
               If your question is not list here, please feel free to send us an email.
             </Text>
             <a href="mailto:hello@design2tech.com">
-              <Link sx={styles.askButton} path="/">
+              <Box sx={styles.askButton}>
                 Ask your Question
-              </Link>
+              </Box>
             </a>
           </Box>
         </Flex>

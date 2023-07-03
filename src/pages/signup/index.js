@@ -30,7 +30,7 @@ const SignUp = () => {
       try{
           setError('');
           setLoading(true);
-          signup(emailRef.current.value, passwordRef.current.value);
+          await signup(emailRef.current.value, passwordRef.current.value);
         //   const userCredentials = await signup(emailRef.current.value, passwordRef.current.value);
         //   const user = userCredentials.user.multiFactor.user;
         //   console.log({...user});
@@ -62,7 +62,7 @@ const SignUp = () => {
       try {
         setError('');
         setLoading(true);
-        loginWithGoogle();
+        await loginWithGoogle();
         // const userCredentials = await loginWithGoogle();
         //   Router.push('/signup/paymentPicker'); ///success
         Router.push('/success');
