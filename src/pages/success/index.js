@@ -49,9 +49,9 @@ const styles = {
     },
     message: {
       textAlign: 'center',
-      pb: '130px',
+      pb: '40px',
       fontSize: ['30px', null, null],
-      minHeight: '40vh'
+      minHeight: '35%'
     },
   };
   
